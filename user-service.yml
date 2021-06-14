@@ -1,3 +1,5 @@
+spring:
+  profiles: default
 eureka:
   instance:
     hostname: eureka-0.eureka
