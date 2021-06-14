@@ -1,0 +1,9 @@
+eureka:
+  instance:
+    hostname: eureka-0.eureka
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://eureka-0.eureka.default.svc.cluster.local:8761/eureka
